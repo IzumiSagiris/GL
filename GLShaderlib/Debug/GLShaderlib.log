@@ -1,0 +1,21 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(392,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (GLShaderlib.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  glad.c
+  stb_image.cpp
+  Shader.cpp
+d:\izumisagirigl\glshaderlib\shader.cpp(54): warning C4101: “infoLog”: 未引用的局部变量
+d:\izumisagirigl\glshaderlib\shader.cpp(53): warning C4101: “success”: 未引用的局部变量
+  Draw3D.cpp
+d:\izumisagirigl\glshaderlib\shader.cpp(54): warning C4101: “infoLog”: 未引用的局部变量
+d:\izumisagirigl\glshaderlib\shader.cpp(53): warning C4101: “success”: 未引用的局部变量
+d:\izumisagirigl\glshaderlib\draw3d.cpp(226): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\glshaderlib\draw3d.cpp(310): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\glshaderlib\draw3d.cpp(311): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\glshaderlib\draw3d.cpp(315): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\glshaderlib\draw3d.cpp(316): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\glshaderlib\draw3d.cpp(318): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\glshaderlib\draw3d.cpp(319): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\glshaderlib\draw3d.cpp(328): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  Camera.cpp
+  正在生成代码...
+  GLShaderlib.vcxproj -> D:\IzumiSagiriGL\Debug\GL.exe
+  GLShaderlib.vcxproj -> D:\IzumiSagiriGL\Debug\GL.pdb (Partial PDB)
