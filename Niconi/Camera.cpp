@@ -63,7 +63,7 @@ public:
 	// Returns the view matrix calculated using Eular Angles and the LookAt Matrix
 	glm::mat4 GetViewMatrix()
 	{
-		return IzumiLookAt(Position, Position + Front, Up);
+		return NiconiLookAt(Position, Position + Front, Up);
 	}
 
 	// Processes input received from any keyboard-like input system. Accepts input parameter in the form of camera defined ENUM (to abstract it from windowing systems)
@@ -140,7 +140,7 @@ private:
 		Up = glm::normalize(glm::cross(Right, Front));
 	}
 
-	glm::mat4 IzumiLookAt(glm::vec3 position, glm::vec3 target, glm::vec3 up) {
+	glm::mat4 NiconiLookAt(glm::vec3 position, glm::vec3 target, glm::vec3 up) {
 
 		glm::mat4 result(1);
 
