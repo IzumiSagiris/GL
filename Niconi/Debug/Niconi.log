@@ -3,16 +3,19 @@
 d:\izumisagirigl\niconi\shader.cpp(54): warning C4101: “infoLog”: 未引用的局部变量
 d:\izumisagirigl\niconi\shader.cpp(53): warning C4101: “success”: 未引用的局部变量
   Draw3D.cpp
+  Color.cpp
 d:\izumisagirigl\niconi\shader.cpp(54): warning C4101: “infoLog”: 未引用的局部变量
 d:\izumisagirigl\niconi\shader.cpp(53): warning C4101: “success”: 未引用的局部变量
-d:\izumisagirigl\niconi\draw3d.cpp(226): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-d:\izumisagirigl\niconi\draw3d.cpp(310): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\izumisagirigl\niconi\draw3d.cpp(311): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\izumisagirigl\niconi\draw3d.cpp(315): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-d:\izumisagirigl\niconi\draw3d.cpp(316): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-d:\izumisagirigl\niconi\draw3d.cpp(318): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\izumisagirigl\niconi\draw3d.cpp(319): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-d:\izumisagirigl\niconi\draw3d.cpp(328): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\niconi\color.cpp(198): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\niconi\color.cpp(205): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\niconi\color.cpp(206): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\niconi\color.cpp(329): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\niconi\color.cpp(330): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\niconi\color.cpp(334): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\niconi\color.cpp(335): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\niconi\color.cpp(337): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\niconi\color.cpp(338): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\izumisagirigl\niconi\color.cpp(347): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
   Camera.cpp
   正在生成代码...
   glad.c

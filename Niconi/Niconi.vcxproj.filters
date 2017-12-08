@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="资源文件\Draw3DShader">
+      <UniqueIdentifier>{3cc72815-206d-4d8b-87c8-686dc33e5b8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\ColorShader">
+      <UniqueIdentifier>{efb33887-8bda-427f-a267-2b70b31c46f6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stb_image.h">
@@ -35,13 +41,28 @@
     <ClCompile Include="stb_image.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\Debug\shader.fs">
-      <Filter>资源文件</Filter>
+      <Filter>资源文件\Draw3DShader</Filter>
     </None>
     <None Include="..\Debug\shader.vs">
-      <Filter>资源文件</Filter>
+      <Filter>资源文件\Draw3DShader</Filter>
+    </None>
+    <None Include="..\Debug\colorshader.fs">
+      <Filter>资源文件\ColorShader</Filter>
+    </None>
+    <None Include="..\Debug\colorshader.vs">
+      <Filter>资源文件\ColorShader</Filter>
+    </None>
+    <None Include="..\Debug\lampshader.fs">
+      <Filter>资源文件\ColorShader</Filter>
+    </None>
+    <None Include="..\Debug\lampshader.vs">
+      <Filter>资源文件\ColorShader</Filter>
     </None>
   </ItemGroup>
 </Project>

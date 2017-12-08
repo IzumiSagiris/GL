@@ -120,12 +120,17 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Color.cpp" />
     <ClCompile Include="Draw3D.cpp" />
     <ClCompile Include="glad.c" />
     <ClCompile Include="Shader.cpp" />
     <ClCompile Include="stb_image.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\Debug\colorshader.fs" />
+    <None Include="..\Debug\colorshader.vs" />
+    <None Include="..\Debug\lampshader.fs" />
+    <None Include="..\Debug\lampshader.vs" />
     <None Include="..\Debug\shader.fs" />
     <None Include="..\Debug\shader.vs" />
   </ItemGroup>
